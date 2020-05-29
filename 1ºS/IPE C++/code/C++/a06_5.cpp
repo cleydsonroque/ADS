@@ -8,23 +8,21 @@ int main (){
 	float val;
 	bool inv;
 	
-	cout << "\n       *** CardÃ¡pio *** \n";
-	cout << "\n   100 â€“ HambÃºrguer â€“ R$5,50 \n";
-	cout << "\n   101 â€“ Cachorro-quente â€“ R$4,50 \n";
-	cout << "\n   102 â€“ Milkshake â€“ R$7,00 \n";
-	cout << "\n   103 â€“ Pizza brotinho â€“ R$8,00 \n";
-	cout << "\n   104 - Cheeseburguer â€“ R$8,50 \n";
-	cout << "\n   Informe o cÃ³digo do seu pedido: \n";
+	cout << "\n       *** Cardápio *** \n";
+	cout << "\n   100 – Hambúrguer – R$5,50 \n";
+	cout << "\n   101 – Cachorro-quente – R$4,50 \n";
+	cout << "\n   102 – Milkshake – R$7,00 \n";
+	cout << "\n   103 – Pizza brotinho – R$8,00 \n";
+	cout << "\n   104 - Cheeseburguer – R$8,50 \n";
+	cout << "\n   Informe o código do seu pedido: \n";
 	cin >> ped;
 	
-		if (ped != 100 || ped != 101 || ped != 102 || ped != 103 || ped != 104 ) {
-			cout << "\n    CÃ³digo invÃ¡lido, informe o cÃ³digo do seu pedido: \n";
-			cin >> ped;
-		}
+		//if (ped != 100 || ped != 101 || ped != 102 || ped != 103 || ped != 104 ) {
+		//	cout << "\n    Código inválido, informe o código do seu pedido: \n";
+		//	cin >> ped;
+		//}
 	
-	//switch (ped) {ucÃ³digo
-
-
+	//switch (ped) {
 	//	case 100: 
 	//}
 	
