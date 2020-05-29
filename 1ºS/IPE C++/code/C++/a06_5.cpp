@@ -2,12 +2,12 @@
 #include <locale.h>
 using namespace std;
 
-int main (){
+int main () {
 	setlocale(LC_ALL, "Portuguese");
 	int ped, qtde;
 	float val;
 	bool inv;
-	
+
 	cout << "\n       *** Cardápio *** \n";
 	cout << "\n   100 – Hambúrguer – R$5,50 \n";
 	cout << "\n   101 – Cachorro-quente – R$4,50 \n";
@@ -16,14 +16,14 @@ int main (){
 	cout << "\n   104 - Cheeseburguer – R$8,50 \n";
 	cout << "\n   Informe o código do seu pedido: \n";
 	cin >> ped;
-	
-		//if (ped != 100 || ped != 101 || ped != 102 || ped != 103 || ped != 104 ) {
-		//	cout << "\n    Código inválido, informe o código do seu pedido: \n";
-		//	cin >> ped;
-		//}
-	
-	//switch (ped) {
-	//	case 100: 
+
+	//if (ped != 100 || ped != 101 || ped != 102 || ped != 103 || ped != 104 ) {
+	//	cout << "\n    Código inválido, informe o código do seu pedido: \n";
+	//	cin >> ped;
 	//}
-	
+
+	//switch (ped) {
+	//	case 100:
+	//}
+
 }
